@@ -1,9 +1,9 @@
 @font-face {
-  font-family:'Mistery Mixed';
-  src: url('../fonts/Mystery Mixed.ttf') format('truetype')
+  font-family: "Mistery Mixed";
+  src: url("../fonts/Mystery Mixed.ttf") format("truetype");
 }
 
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -11,28 +11,28 @@
   font-weight: normal;
 }
 
-a{
+a {
   color: white;
   text-decoration: none;
   font-family: "Mystery Mixed", serif;
   font-size: 2.5rem;
 }
 
-.navbar{
+.navbar {
   display: flex;
   justify-content: flex-end;
   margin: 30px;
 }
 
-.navbar-ul{
+.navbar-ul {
   display: flex;
 }
 
-.navbar-ul-li{
+.navbar-ul-li {
   margin: 2rem;
 }
 
-.navbar-ul-li:hover{
+.navbar-ul-li:hover {
   border-bottom: solid #ff038d 1px;
   transition: 1s;
 }
@@ -67,15 +67,18 @@ a{
   font-size: 3.5rem;
 }
 
-h1{
+h1 {
   margin: 0;
 }
 
-h1, h2, h3, h4{
+h1,
+h2,
+h3,
+h4 {
   font-family: "Mystery Mixed", serif;
 }
 
-.title-section{
+.title-section {
   font-size: 3rem;
   padding: 4px;
   background: black;
@@ -86,11 +89,11 @@ h1, h2, h3, h4{
   transform-origin: left bottom;
 }
 
-.title-section-span{
+.title-section-span {
   font-size: 5rem;
 }
 
-span{
+span {
   font-size: 7rem;
 }
 
@@ -113,14 +116,13 @@ span{
   transform-origin: top right;
 }
 
-.section-about-right{
+.section-about-right {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 50vw;
 }
-
 
 .maca {
   width: 15%;
@@ -138,42 +140,43 @@ span{
   z-index: 0;
 }
 
-.pink, .green{
+.pink,
+.green {
   width: 20%;
   height: auto;
 }
 
-main{
+main {
   margin-top: 7.5rem;
   margin-left: 20rem;
   margin-right: 20rem;
 }
 
-.about-me{
+.about-me {
   padding-top: 20rem;
 }
 
-p{
-  font-family: 'Bricolage Grotesque', sans-serif;
+p {
+  font-family: "Bricolage Grotesque", sans-serif;
   margin-top: 3rem;
 }
 
-.description{
+.description {
   font-size: 1.5rem;
 }
 
-.descriptions{
+.descriptions {
   display: flex;
   justify-content: space-around;
   margin-top: 3rem;
   text-align: center;
 }
 
-.descriptions article{
+.descriptions article {
   padding: 2rem;
 }
 
-.title-star{
+.title-star {
   display: flex;
   justify-content: space-between;
   margin-top: 2rem;
@@ -184,31 +187,30 @@ p{
   padding: 1.5rem;
 }
 
-.title-star img{
+.title-star img {
   width: 15%;
   position: absolute;
   left: 80%;
   top: -50%;
 }
 
-.descriptions p{
+.descriptions p {
   width: 70%;
   margin: 2rem auto;
 }
 
-h3{
+h3 {
   font-size: 2.5rem;
   align-self: center;
-
 }
 
-blockquote{
+blockquote {
   background-color: black;
   color: white;
   text-align: center;
   transform: rotate(-1deg);
   transform-origin: left bottom;
-  font-family: 'Bricolage Grotesque', sans-serif;
+  font-family: "Bricolage Grotesque", sans-serif;
   font-size: 1.5rem;
   padding: 10px;
   width: 50%;
@@ -222,7 +224,7 @@ blockquote{
   margin-bottom: 15rem;
 }
 
-.skills-container{
+.skills-container {
   display: flex;
   justify-content: center;
   align-self: center;
@@ -239,11 +241,11 @@ blockquote{
   width: 90%;
 }
 
-.skill-image{
+.skill-image {
   max-width: 100px;
 }
 
-.myskills-img{
+.myskills-img {
   display: flex;
   align-items: center;
 }
@@ -256,13 +258,13 @@ blockquote{
   margin-right: 1rem;
 }
 
-footer{
+footer {
   background-image: url("../img/fondo/background.png");
   padding-top: 8rem;
   padding-bottom: 8rem;
 }
 
-.contact{
+.contact {
   display: flex;
   justify-content: space-around;
 }
@@ -309,7 +311,8 @@ footer{
 }
 
 @keyframes blinking-caret {
-  from, to {
+  from,
+  to {
     opacity: 0;
   }
   50% {
@@ -317,20 +320,20 @@ footer{
   }
 }
 
-@media (max-width: 468px){
-  .maca{
+@media (max-width: 468px) {
+  .maca {
     width: 60vw;
   }
 }
 
 @media (max-width: 767px) {
-  .navbar{
+  .navbar {
     display: none;
   }
 
-  .section-about{
+  .section-about {
     display: flex;
-    flex-direction: column;
+
     align-items: center;
     height: 60vh;
     justify-content: center;
@@ -338,108 +341,109 @@ footer{
     margin-bottom: 3rem;
   }
 
-  .section-about-left{
+  .section-about-left {
     margin: 0;
     text-align: center;
     max-width: 80vw;
   }
 
-  .section-about-left h1{
+  .section-about-left h1 {
     font-size: 2.8rem;
   }
 
-  .section-about-left h2{
+  .section-about-left h2 {
     font-size: 2.3rem;
   }
 
-  .section-about-left span{
+  .section-about-left span {
     font-size: 2.8rem;
   }
 
-  .section-about-left h1 span{
+  .section-about-left h1 span {
     font-size: 3.2rem;
   }
 
-  .title{
+  .title {
     font-size: 1.7rem;
     max-width: 80vw;
     white-space: break-spaces;
   }
 
-  .diagonal-background{
+  .diagonal-background {
     height: 15vh;
   }
-  .section-about-right{
+  .section-about-right {
     height: 30vh;
   }
 
-  .maca{
+  .maca {
     width: 40vw;
   }
 
-  .green, .pink{
+  .green,
+  .pink {
     width: 35%;
   }
-  main{
+  main {
     margin-left: 0;
     display: flex;
     flex-direction: column;
     margin: 0 auto;
     width: 80vw;
   }
-  .title-section-span{
+  .title-section-span {
     font-size: 2.5rem;
   }
-  .about-me{
-  width: 100%;
+  .about-me {
+    width: 100%;
     padding-top: 0;
   }
 
-  .title-section{
+  .title-section {
     font-size: 2rem;
     padding: 2px;
     width: 40vw;
   }
 
-  .about-me p{
+  .about-me p {
     font-size: 1.2rem;
   }
 
-  .descriptions{
+  .descriptions {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: left;
   }
-  .descriptions p{
+  .descriptions p {
     width: 100%;
     text-align: center;
   }
 
-  .title-star{
-  padding: 0.5rem;
+  .title-star {
+    padding: 0.5rem;
   }
 
   .title-star h3 {
     font-size: 1.8rem;
   }
-  .title-star img{
+  .title-star img {
     top: -15%;
   }
 
-  blockquote{
+  blockquote {
     width: 80vw;
     margin: 2rem auto;
     font-size: 1.2rem;
   }
 
-  .myskills{
+  .myskills {
     margin-top: 4rem;
     margin-bottom: 2rem;
     padding: 0;
   }
 
-  .skills-container{
+  .skills-container {
     margin-top: 2rem;
     width: 80vw;
     background-image: none;
@@ -449,17 +453,17 @@ footer{
     height: fit-content;
   }
 
-  .myskills-img{
+  .myskills-img {
     width: 90vw;
     flex-wrap: wrap;
     justify-content: center;
   }
 
-  .skill-image{
+  .skill-image {
     width: 3rem;
   }
 
-  footer{
+  footer {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -468,144 +472,144 @@ footer{
     padding-bottom: 3rem;
   }
 
-  .contact img{
+  .contact img {
     max-width: 40vw;
   }
 
-  .back-to-top img{
+  .back-to-top img {
     width: 60%;
   }
 }
 
 @media (min-width: 768px) and (max-width: 1802px) {
-  .navbar-ul-li{
+  .navbar-ul-li {
     font-size: 2rem;
     margin: 1.5rem;
   }
 
-  .section-about{
-    width: 80vw;
+  .section-about {
+    width: 75vw;
     margin: 0 auto;
     display: flex;
-    flex-direction: column;
     align-items: center;
-    height: 80vh;
+    height: 100vh;
   }
-  .section-about-left{
+  .section-about-left {
     margin: 0;
-    align-self: start;
   }
 
-  .section-about-left h1, .section-about-left h2{
+  .section-about-left h1,
+  .section-about-left h2 {
     font-size: 3rem;
   }
 
-  .section-about-left h1 span{
+  .section-about-left h1 span {
     font-size: 4rem;
   }
 
-  .diagonal-background{
+  .diagonal-background {
     height: 35vw;
   }
 
-  .title{
+  .title {
     font-size: 2.5rem;
     max-width: 80vw;
     white-space: break-spaces;
   }
 
-  .section-about-right{
+  .section-about-right {
     height: 50vh;
   }
 
-  .maca{
-    width: 45vw;
+  .maca {
+    width: 25vw;
   }
 
-  .green, .pink{
+  .green,
+  .pink {
     width: 40%;
   }
 
-  .about-me{
+  .about-me {
     padding-top: 2rem;
     width: 80vw;
     margin: 0 auto;
   }
 
-  main{
+  main {
     margin: 0 auto;
-
   }
 
-  .title-section{
+  .title-section {
     width: 30vw;
   }
 
-  .title-section-span{
+  .title-section-span {
     font-size: 3rem;
   }
 
-  .descriptions{
+  .descriptions {
     display: flex;
     flex-direction: column;
   }
 
-  .descriptions p{
+  .descriptions p {
     font-size: 1.2rem;
   }
 
-  blockquote{
+  blockquote {
     width: 80vw;
   }
 
-  .myskills{
+  .myskills {
     width: 80vw;
     margin: 0 auto;
   }
 
-  .skills-container{
+  .skills-container {
     width: 103%;
     margin-top: 2rem;
     margin-bottom: 2rem;
     height: 500px;
   }
 
-  .myskills-img{
+  .myskills-img {
     flex-wrap: wrap;
     justify-content: center;
     width: 100%;
   }
 
-  .skill-image{
+  .skill-image {
     width: 3rem;
   }
 
-  footer{
+  footer {
     display: flex;
     flex-wrap: wrap;
     padding-left: 8rem;
     padding-right: 8rem;
   }
 
-  .contact img{
+  .contact img {
     max-width: 20vw;
   }
 }
 
-@media (min-width: 1130px) and (max-width: 1802px){
-  .maca{
+@media (min-width: 1130px) and (max-width: 1802px) {
+  .maca {
     max-width: 30%;
   }
 
-  .section-about{
-    margin-bottom: 10rem;
+  .section-about {
+    margin-bottom: 8rem;
   }
 
-  .green, .pink{
+  .green,
+  .pink {
     width: 30%;
   }
 
-  .skill-image{
+  .skill-image {
     width: 3.5rem;
   }
 }
